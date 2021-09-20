@@ -29,5 +29,6 @@ public class Student {
         System.out.println("AVg is " + avga);
         System.out.println("---------------------");
         System.out.println("AVg is " + avgb);
+        
     }
 }
