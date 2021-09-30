@@ -1,6 +1,7 @@
+//infix-postfix 
 #include<stdio.h>
-#include<stdlib.h>      /* for exit() */
-#include<ctype.h>     /* for isdigit(char ) */
+#include<stdlib.h>      
+#include<ctype.h>     
 #include<string.h>
 
 #define SIZE 100
