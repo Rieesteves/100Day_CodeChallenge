@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    color: rgb(2, 37, 26);
+}
+
+#demo{
+    background-color: bisque;
+}
+.list{
+    text-decoration:none ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container :hover{
+    transform: scaleY(2);
+}
+
+.animate{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: sample;
+    animation-duration: 8s;
+}
+@keyframes sample{
+    0%{
+        background-color: blueviolet;
+        left: 10;
+        top: 0;
+    }
+    25%{
+        background-color: yellow;
+        left: 200px;
+        top: 0
+    }
+}
