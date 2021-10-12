@@ -26,7 +26,8 @@ class Triangle{
                                 / (g.factorial(i - j)
                                 * g.factorial(j)));
             }
-
+            
+            
             // for newline
             System.out.println();
         }
