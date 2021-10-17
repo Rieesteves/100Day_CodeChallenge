@@ -1,5 +1,4 @@
 //sum of indi digits
-
 #include <stdio.h>
 int main()
 {
