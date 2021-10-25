@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Purchase extends Sales
 {
     private int noc;
