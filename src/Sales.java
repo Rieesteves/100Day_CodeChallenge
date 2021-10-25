@@ -8,6 +8,7 @@ public class Sales
     protected double price;
 
     public void input() {
+        
         Scanner in = new Scanner(System.in);
         System.out.print("Enter book title: ");
         title = in.nextLine();
